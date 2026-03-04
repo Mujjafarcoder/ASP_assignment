@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Headpart from "../Components/Headpart";
 import Applayout from "../Components/Applayout";
-import '../db.json'
 
 export default function Scandetails() {
 
