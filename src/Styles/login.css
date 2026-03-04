@@ -1,0 +1,105 @@
+
+.setcolor {
+background: linear-gradient(
+  135deg,
+  #203a2e 0%,
+  #00130e 40%,
+  #560808 100%
+);}
+
+
+.highlight {
+  color: #0CC8A8;
+}
+
+
+.feature-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.feature-list li {
+  margin-bottom: 12px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.feature-list li i {
+  font-size: 20px;
+  color: #0CC8A8;
+  margin-right: 8px;
+}
+
+.login-card {
+  width: 400px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+
+.btn-teal {
+  background-color: #0CC8A8;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+
+.btn-teal:hover {
+  background-color: #0bb89a;
+}
+
+
+.apple-icon {
+  font-size: 25px;
+  color: #000;
+}
+
+.F-con{
+    border: 0px solid #000000;
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.F-con {
+  width: 55px;
+  height: 55px;
+  border-radius: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.apple-icon {
+  background: black;
+  color: white;
+  font-size: 22px;
+}
+
+.google-icon {
+  background: #f5f5f5;
+}
+
+.meta-icon {
+  color: white;
+  background: #0866FF;
+  font-size: 20px;
+}
+
+.trustpilot i {
+  color: #0CC8A8;
+  font-size: 25px;
+}
+
+.reviews{
+  font-size: 14px;
+  color: #bcb2b2;
+}

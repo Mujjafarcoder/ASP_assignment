@@ -1,0 +1,50 @@
+
+
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+  color: #000000;
+}
+
+/* Logo */
+.logo {
+  color: #141313;
+  font-weight: bold;
+}
+
+/* Nav items */
+.nav-item {
+  padding: 10px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  color: #0CC8A8;
+}
+
+.nav-item.active {
+  color: #0CC8A8;
+  font-weight: 500;
+}
+
+/* Main area */
+.main-content {
+  background: #8b8b8b;
+  min-height: 100vh;
+}
+
+body.dark .sidebar{
+  background-color: #0f172a;
+  color: white !important;
+}
+
+body.dark .sidebar a{
+  color: white !important;
+}
+
+body.dark .sidebar i{
+  color: white !important;
+}

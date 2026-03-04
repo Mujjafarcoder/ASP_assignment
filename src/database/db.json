@@ -1,0 +1,131 @@
+{
+  "organization": {
+    "id": 1,
+    "name": "Project X",
+    "owner": "Nammagiri",
+    "totalScans": 128,
+    "lastUpdated": "10 mins ago"
+  },
+
+  "severityStats": {
+    "critical": 86,
+    "high": 16,
+    "medium": 26,
+    "low": 16
+  },
+
+  "scans": [
+    {
+      "id": 1,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Completed",
+      "progress": 100,
+      "vulnerabilities": {
+        "critical": 5,
+        "high": 12,
+        "medium": 23,
+        "low": 18
+      },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 2,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Completed",
+      "progress": 100,
+      "vulnerabilities": {
+        "critical": 5,
+        "high": 12,
+        "medium": 23,
+        "low": 18
+      },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 3,
+      "scanName": "Web App Servers",
+      "type": "Greybox",
+      "status": "Scheduled",
+      "progress": 100,
+      "vulnerabilities": {
+        "critical": 5,
+        "high": 12,
+        "medium": 0,
+        "low": 0
+      },
+      "lastScan": "4d ago"
+    },
+    {
+      "id": 4,
+      "scanName": "IoT Devices",
+      "type": "Blackbox",
+      "status": "Failed",
+      "progress": 10,
+      "vulnerabilities": {
+        "critical": 2,
+        "high": 4,
+        "medium": 8,
+        "low": 1
+      },
+      "lastScan": "3d ago"
+    },
+    {
+      "id": 5,
+      "scanName": "Temp Data",
+      "type": "Blackbox",
+      "status": "Failed",
+      "progress": 10,
+      "vulnerabilities": {
+        "critical": 2,
+        "high": 4,
+        "medium": 8,
+        "low": 1
+      },
+      "lastScan": "3d ago"
+    },
+    {
+      "id": 6,
+      "scanName": "Cloud Infrastructure",
+      "type": "Greybox",
+      "status": "Running",
+      "progress": 65,
+      "vulnerabilities": {
+        "critical": 3,
+        "high": 7,
+        "medium": 10,
+        "low": 5
+      },
+      "lastScan": "1d ago"
+    },
+    {
+      "id": 7,
+      "scanName": "Mobile App",
+      "type": "Greybox",
+      "status": "Running",
+      "progress": 65,
+      "vulnerabilities": {
+        "critical": 3,
+        "high": 7,
+        "medium": 10,
+        "low": 5
+      },
+      "lastScan": "1d ago"
+    }
+    ,{
+      "id": 8,
+      "scanName": "Cloud Infrastructure",
+      "type": "Greybox",
+      "status": "Running",
+      "progress": 65,
+      "vulnerabilities": {
+        "critical": 3,
+        "high": 7,
+        "medium": 10,
+        "low": 5
+      },
+      "lastScan": "1d ago"
+    }
+  ]
+}
