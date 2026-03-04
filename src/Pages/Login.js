@@ -22,16 +22,18 @@ export default function Login() {
 
     function myfunc(){
 
-        data.find((item,index)=>{
-            if(item.email===email && item.password===password){
-                navigate("/dashboard");
-            }
-            else
-            {
-                setErrors("Invalid email or password");
-            }
-        })
-    }
+  const user = data.find(
+    (item) => item.email === email && item.password === password
+  );
+
+  if(user){
+    navigate("/dashboard");
+  }
+  else{
+    setErrors("Invalid email or password");
+  }
+
+}
 
 
   return (
