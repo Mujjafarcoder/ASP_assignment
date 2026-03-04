@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../Styles/login.css'
-import { Navigate, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 export default function Login() {
 
     const [firstName, setFirstName] = useState("");
