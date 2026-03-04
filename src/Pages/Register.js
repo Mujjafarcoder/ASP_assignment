@@ -10,19 +10,6 @@ export default function Register() {
     const [errors, setErrors] = useState({});
     const navigate = useNavigate();
 
-    function toggleTheme() {
-
-  if (document.body.classList.contains("dark")) {
-    document.body.classList.remove("dark")
-    document.body.classList.add("light")
-  } 
-  else {
-    document.body.classList.remove("light")
-    document.body.classList.add("dark")
-  }
-
-}
-
 
     function myfunc(e) {
         e.preventDefault();
