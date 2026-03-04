@@ -13,11 +13,11 @@ export default function Scandetails() {
 
   useEffect(() => {
 
-    fetch(`http://localhost:3004/scans/${id}`)
+    fetch(`https://asp-assignment.onrender.com/scans/${id}`)
       .then(res => res.json())
       .then(data => setScan(data));
 
-    fetch("http://localhost:3004/organization")
+   fetch("https://asp-assignment.onrender.com/organization")
       .then(res => res.json())
       .then(data => setOrganization(data));
 
