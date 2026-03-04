@@ -44,7 +44,7 @@ export default function Login() {
                     <input className='form-control mb-3' id='pass' placeholder='Password' type="password" onChange={(e) => setPassword(e.target.value)} />
                     <button className='btn btn-teal w-100' onClick={myfunc}>Login</button>
                     {errors && <p className='text-danger'>{errors}</p>}
-                    <p className='ps-3 mt-3 text-white'>Don't have an account? <Link to="/" className="text-white">Sign up</Link></p>
+                    <p className='ps-3 mt-3 text-white'>Dont have an account? <Link to="/" className="text-white">Sign up</Link></p>
                 </div>
             </div>
         </>
