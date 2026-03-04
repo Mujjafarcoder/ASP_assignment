@@ -1,5 +1,6 @@
 import React from "react";
 import '../Styles/applayout.css'
+import { Link } from "react-router-dom";
 
 export default function Applayout() {
   return (
@@ -10,7 +11,7 @@ export default function Applayout() {
         <h4 className="logo mb-4">aps</h4>
 
         <ul className="list-unstyled">
-          <li className="nav-item active"> <i className="bi bi-ui-checks-grid pe-1"></i>Dashboard</li>
+          <li className="nav-item active"> <i className="bi bi-ui-checks-grid pe-1"></i><Link to="/dashboard">Dashboard</Link></li>
           <li className="nav-item"> <i className="bi bi-clipboard-check"></i>Projects</li>
           <li className="nav-item"><i className="bi bi-reception-4"></i>Scans</li>
           <li className="nav-item" ><i className="fa-thin fa-calendar-minus"></i>Schedule</li>

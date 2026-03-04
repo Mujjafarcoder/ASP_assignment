@@ -23,22 +23,22 @@ export default function Headpart2() {
 
          
             <div className='row text-center text-md-start gy-2 mb-4 '>
-                <div className='col-12 col-md'>
+                <div className='col-12 col-md text-dark'>
                     Org: <strong>Project X</strong>
                 </div>
-                <div className='col-12 col-md'>
+                <div className='col-12 col-md text-dark'>
                     Owner: <strong>Namangiri</strong>
                 </div>
-                <div className='col-6 col-md'>
+                <div className='col-6 col-md text-dark'>
                     Total Scans: <strong>1000</strong>
                 </div>
-                <div className='col-6 col-md'>
+                <div className='col-6 col-md text-dark'>
                     Rescan: <strong>100</strong>
                 </div>
-                <div className='col-6 col-md'>
+                <div className='col-6 col-md text-dark'>
                     Failed: <strong>100</strong>
                 </div>
-                <div className='col-6 col-md text-muted'>
+                <div className='col-6 col-md text-dark'>
                     10 min ago
                 </div>
             </div>

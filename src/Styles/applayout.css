@@ -1,14 +1,15 @@
 
-
-
-/* Sidebar */
 .sidebar {
   width: 250px;
   min-height: 100vh;
   color: #000000;
 }
 
-/* Logo */
+a{
+  color: #000000;
+  text-decoration: none;
+}
+
 .logo {
   color: #141313;
   font-weight: bold;

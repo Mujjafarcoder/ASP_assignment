@@ -27,11 +27,11 @@ function toggleTheme() {
           <div className='col-12 col-lg-6 text-center text-lg-start'>
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb mb-0">
-                <li className="breadcrumb-item fw-bold">
-                  <i className="fa-regular fa-house me-1"></i>
+                <li className="breadcrumb-item fw-bold text-dark">
+                  <i className="fa-regular fa-house me-1 text-dark"></i>
                   Scan
                 </li>
-                <li className="breadcrumb-item">Private Assets</li>
+                <li className="breadcrumb-item text-dark">Private Assets</li>
                 <li className="breadcrumb-item active text-primary" aria-current="page">
                   New Scans
                 </li>

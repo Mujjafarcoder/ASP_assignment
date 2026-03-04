@@ -7,10 +7,15 @@ background: linear-gradient(
   #560808 100%
 );}
 
+body{
+  color: #fff !important;
+}
+
 
 .highlight {
   color: #0CC8A8;
 }
+
 
 
 .feature-list {
@@ -32,8 +37,8 @@ background: linear-gradient(
 
 .login-card {
   width: 400px;
-  background: #ffffff;
   border-radius: 14px;
+  color: #000;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
@@ -48,6 +53,7 @@ background: linear-gradient(
 .btn-teal:hover {
   background-color: #0bb89a;
 }
+
 
 
 .apple-icon {
