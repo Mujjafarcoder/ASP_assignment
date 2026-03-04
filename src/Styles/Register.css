@@ -35,7 +35,11 @@ body{
   margin-right: 8px;
 }
 
+.full-height {
+  height: 100vh;
+}
 .login-card {
+  
   width: 400px;
   border-radius: 14px;
   color: #000;

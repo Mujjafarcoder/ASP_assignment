@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../Styles/Register.css'
 import {  Link, useNavigate } from 'react-router-dom';
+
 export default function Register() {
 
     const [firstName, setFirstName] = useState("");
@@ -59,11 +60,11 @@ export default function Register() {
     }
     return (
         <>
-            <div className="container-fluid vh-100 ">
+            <div className="container-fluid full-height ">
                 <div className="row h-100 setcolor">
 
                     {/* LEFT SIDE */}
-                    <div className="col-xl-6 col-12 d-flex flex-column justify-content-center text-white left-panel p-5">
+                    <div className="col-xl-6 d-none d-xl-block d-flex flex-column justify-content-center text-white left-panel p-5 mt-5">
 
                         <h1 className="mb-4 fw-bold">
                             Expert level Cybersecurity <br />
