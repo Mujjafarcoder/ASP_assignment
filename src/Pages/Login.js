@@ -156,7 +156,7 @@ export default function Login() {
 
                                 {/* Meta */}
                                 <div className="F-con meta-icon">
-                                    <i class="fa-brands fa-meta"></i>
+                                    <i className="fa-brands fa-meta"></i>
                                 </div>
 
                             </div>
