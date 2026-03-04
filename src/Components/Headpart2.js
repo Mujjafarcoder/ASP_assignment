@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import '../db.json'
 
 export default function Headpart2() {
 
@@ -8,13 +9,13 @@ export default function Headpart2() {
 
     const navigate=useNavigate();
 
-    useEffect(() => {
-        fetch('http://localhost:3004/scans')
-            .then(res => res.json())
-            .then(value => {
-                setData(value);
-            })
-    }, [])
+   useEffect(() => {
+    fetch("/db.json")
+        .then(res => res.json())
+        .then(value => {
+            setData(value.scans);
+        })
+}, [])
 
  
 
