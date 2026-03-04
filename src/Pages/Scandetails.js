@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Headpart from "../Components/Headpart";
 import Applayout from "../Components/Applayout";
+import '../db.json'
 
 export default function Scandetails() {
 
@@ -11,17 +12,17 @@ export default function Scandetails() {
   const [organization, setOrganization] = useState(null);
   const [activeTab, setActiveTab] = useState("activity");
 
-  useEffect(() => {
+useEffect(() => {
 
-    fetch(`https://asp-assignment.onrender.com/scans/${id}`)
-      .then(res => res.json())
-      .then(data => setScan(data));
+  fetch("/db.json")
+    .then(res => res.json())
+    .then(data => {
+      const scanData = data.scans.find(s => s.id === Number(id));
+      setScan(scanData);
+      setOrganization(data.organization);
+    });
 
-   fetch("https://asp-assignment.onrender.com/organization")
-      .then(res => res.json())
-      .then(data => setOrganization(data));
-
-  }, [id]);
+}, [id]);
 
   
   if (!scan) {
